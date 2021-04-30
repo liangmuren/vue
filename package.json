@@ -10,13 +10,18 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@vercel/node": "^1.10.0",
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
